@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 191995 2016-10-12 08:52:00Z arojas $
+# $Id$
 # Maintainer: Jonathan Conder <jonno.conder@gmail.com>
 # Contributor: Giovanni Scafora <giovanni@archlinux.org>
 # Contributor: Juergen Hoetzel <juergen@archlinux.org>
@@ -7,7 +7,7 @@
 
 pkgname=mythtv
 pkgver=0.28.1
-pkgrel=2
+pkgrel=7
 epoch=1
 pkgdesc="A Homebrew PVR project"
 arch=('i686' 'x86_64')
@@ -29,7 +29,7 @@ install='mythtv.install'
 source=("$pkgname-$pkgver.tar.gz::https://github.com/MythTV/$pkgname/archive/v$pkgver.tar.gz"
         'mythbackend.service' '99-mythbackend.rules'
         'loggingserver.patch')
-sha256sums=('598270a1cc89abd72ef4a86c1aa8cd6644ec189c87b7df0547a835f9d0020cac'
+sha256sums=('f59688bbb69ef8830cfe76c826ec89027ed0a9bbb75cc97935fc664225b89dee'
             'ed5ca54de26b7cd8a64e09626eed6e09f35d677daf88c530bb24cc4252bcce6d'
             'ecfd02bbbef5de9773f4de2c52e9b2b382ce8137735f249d7900270d304fd333'
             '3798c5d00c9dae19fa46b4d69f395df6461018c801dadf9b86f336b8c5ff39ec')
